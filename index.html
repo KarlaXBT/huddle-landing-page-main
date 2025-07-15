@@ -21,9 +21,21 @@
   </head>
   <body>
     <main class="landing-page">
-      <header class="landing-page__header">logo</header>
+      <header class="landing-page__header">
+        <img
+          class="landing-page__logo"
+          src="images/logo.svg"
+          alt="Huddle logo"
+        />
+      </header>
       <section class="landing-page__hero">
-        <div class="landing-page__img-box">image</div>
+        <div class="landing-page__img-box">
+          <img
+            src="images/illustration-mockups.svg"
+            alt=""
+            class="landing-page__img"
+          />
+        </div>
         <div class="landing-page__content">
           <h1 class="landing-page__title">
             Build The Community Your Fans Will Love
@@ -33,14 +45,29 @@
             but so does your audience. Create connections with your users as you
             engage in genuine discussion.
           </p>
-          <button class="landing-page__btn">Register</button>
+          <a href="#" class="landing-page__btn">Register</a>
         </div>
       </section>
       <footer class="landing-page__footer">
-        <div class="landing-page__social-icon">icon</div>
-        <div class="landing-page__social-icon">icon</div>
-        <div class="landing-page__social-icon">icon</div>
+        <div class="landing-page__social-icon">
+          <ion-icon name="logo-facebook"></ion-icon>
+        </div>
+        <div class="landing-page__social-icon">
+          <ion-icon name="logo-twitter"></ion-icon>
+        </div>
+
+        <div class="landing-page__social-icon">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </div>
       </footer>
     </main>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>
